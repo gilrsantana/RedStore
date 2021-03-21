@@ -1,0 +1,87 @@
+/************************************
+***********   Principal   ***********
+************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.category {
+  width: 50%;
+  margin: 150px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.category img {
+  width: 150px;
+}
+
+.title-section {
+  text-align: center;
+  position: relative;
+}
+
+.title-section::after{
+  content: '';
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  width: 150px;
+  height: 5px;
+  background: #ff523b;
+  transform: translateX(-50%);
+}
+
+.box-product {
+  width: 80%;
+  margin: 150px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.product img {
+  width: 150px;
+}
+
+.product .fas {
+  color: #ff523b;
+}
+
+.product:hover p {
+  color: #ff523b;
+}
+
+.exclusive {
+  height: 400px;
+  width: 100%;
+  background-image: radial-gradient(#ffffff, #ffd6d6);
+}
+
+.exclusive img {
+  height: 300px;
+}
+
+.exclusive-description {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.exclusive-text {
+  width: 400px;
+}
+
+.exclusive-text h1{
+  font-weight: bolder;
+  font-size: 3em;
+  line-height: 1.2em;
+  margin-bottom: 15px;
+}
+
+.exclusive-text .fas {
+  margin-left: 20px;
+}
+
+.exclusive-text a {
+  margin: 30px 0;
+}

@@ -1,9 +1,12 @@
+/************************************
+***********    Header     ***********
+************************************/
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 
 .top-header {
-  height: 700px;
+  height: 100vh;
   width: 100%;
   background-image: radial-gradient(#ffffff, #ffd6d6);
 }
@@ -14,8 +17,7 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  
+  align-items: center; 
 }
 
 .brand {
@@ -39,7 +41,9 @@
 }
 
 .header-description {
-  height: 500px;
+  width: 90%;
+  margin: 0 auto;
+  height: 90vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
