@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 .partners {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   padding-bottom: 150px;
@@ -19,4 +20,13 @@
 
 .partners img:hover {
   filter: grayscale(0);
+}
+
+@media screen and (max-width: 768px){
+
+  .partners {
+    width: 90%;
+    margin: 0 auto;
+  }
+
 }

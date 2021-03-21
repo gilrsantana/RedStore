@@ -54,3 +54,12 @@
   width: 100px;
   border-radius: 50%;
 }
+
+@media screen and (max-width: 768px){
+
+  .user {
+    flex-basis: 80%;
+    margin-bottom: 20px;
+  }
+
+}

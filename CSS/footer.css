@@ -76,3 +76,30 @@ footer a:hover {
 
   text-align: right;
 }
+
+@media screen and (max-width: 576px) {
+  .content {
+    width: 90%;
+    flex-wrap: wrap;
+  }
+  
+  .download {
+    flex-basis: 45%;
+    margin-bottom: 25px;
+  }
+
+  .company {
+    flex-basis: 45%;
+    text-align: right;
+    margin-bottom: 25px;
+  }
+
+  .util {
+    flex-basis: 45%;
+    text-align: left;
+  }
+
+  .social-media {
+    flex-basis: 45%;
+  }
+}
