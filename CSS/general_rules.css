@@ -1,0 +1,43 @@
+/************************************
+*********** General Rules ***********
+************************************/
+@import url('./header.css');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+}
+
+.container {
+  width: 90%;
+  max-width: 1800px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+.button {
+  display: inline-block;
+  color: #fff;
+  border: none;
+  background: #ff523b;
+  text-align: center;
+  text-decoration: none;
+}
+
+.pri-btn {
+  height: 40px;
+  border-radius: 40px;
+  width: 250px;
+  font-size: 1em;
+  line-height: 40px;
+  padding-left: 20px;
+}
