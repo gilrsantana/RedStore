@@ -20,7 +20,16 @@
   border-radius: 5px;
   box-shadow: 0 0 20px rgba(0,0,0,0.5);
   padding-bottom: 50px;
+  transition: 0.5s;
 }
+
+.user:hover {
+  box-shadow: 0 0 20px #ff523b;
+  transform: translateY(-10px);
+  transition: 0.5s;
+}
+
+
 
 .user .fas {
   color: #ff523b;

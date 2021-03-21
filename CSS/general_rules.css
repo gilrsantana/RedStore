@@ -43,4 +43,12 @@ body {
   font-size: 1em;
   line-height: 40px;
   padding-left: 20px;
+  border: 2px solid #ff523b;
+  transition: 0.5s
+}
+
+.pri-btn:hover {
+  background: #fff;
+  color: #ff523b;
+  transition: 0.5s;
 }

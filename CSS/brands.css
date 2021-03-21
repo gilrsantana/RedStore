@@ -12,5 +12,11 @@
 }
 
 .partners img {
-  flex-basis: 15%;
+  flex-basis: 20%;
+  width: 120px;
+  filter: grayscale(100%);
+}
+
+.partners img:hover {
+  filter: grayscale(0);
 }

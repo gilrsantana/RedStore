@@ -6,7 +6,6 @@
 
 footer {
   width: 100%;
-
   color: #fff;
   background: #000;
 }
@@ -53,16 +52,19 @@ footer a:hover {
   margin: 10px 0;
 }
 .company {
-  flex-basis: 30%;
+  flex-basis: 40%;
   text-align: center;
 }
 
 .util {
-  flex-basis: 18%;
+  flex-basis: 15%;
   text-align: center;
+ 
 }
 
 .social-media {
-  flex-basis: 18%;
+  flex-basis: 15%;
   text-align: center;
+
+  text-align: right;
 }
