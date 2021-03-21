@@ -4,3 +4,44 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+.box-testimonial {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 150px 0;
+}
+
+.user {
+  min-height: 500px;
+  flex-basis: 30%;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  padding-bottom: 50px;
+}
+
+.user .fas {
+  color: #ff523b;
+  margin: 40px 0;
+}
+
+.fa-quote-left {
+  font-size: 3.5em;
+}
+
+.text {
+  display: flex;
+  height: 120px;
+  align-items: center;
+}
+
+.user p {
+  padding: 0 10px;
+}
+
+.user img {
+  width: 100px;
+  border-radius: 50%;
+}
