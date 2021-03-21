@@ -38,8 +38,13 @@
   justify-content: space-around;
 }
 
+.product {
+  transition: 0.5s;
+}
+
 .product img {
   width: 150px;
+  border-radius: 5px;
 }
 
 .product .fas {
@@ -48,6 +53,17 @@
 
 .product:hover p {
   color: #ff523b;
+  transition: 0.5s;
+}
+
+.product:hover img {
+  box-shadow: 0 0 10px #ff523b;
+  transition: 0.5s;
+}
+
+.product:hover {
+  transform: translateY(-10px);
+  transition: 0.5s;
 }
 
 .exclusive {

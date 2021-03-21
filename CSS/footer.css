@@ -25,6 +25,10 @@ footer img {
   width: 80px;
 }
 
+footer img:hover {
+  box-shadow: 0 0 5px #ff523b;
+}
+
 footer a:hover {
   color: #ff523b;
 }
@@ -46,6 +50,10 @@ footer a:hover {
 
 .download {
   flex-basis: 25%;
+}
+
+.download img:hover {
+  box-shadow: 0 0 5px #ff523b;
 }
 
 .download p {
