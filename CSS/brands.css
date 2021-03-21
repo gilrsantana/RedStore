@@ -1,0 +1,11 @@
+/************************************
+***********    Brands     ***********
+************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.partners {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 150px;
+}
