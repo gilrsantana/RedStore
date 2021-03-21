@@ -1,0 +1,68 @@
+/************************************
+***********    Footer     ***********
+************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+footer {
+  width: 100%;
+
+  color: #fff;
+  background: #000;
+}
+
+footer p, 
+footer span {
+  font-size: 0.8em;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.8em;
+}
+
+footer img {
+  width: 80px;
+}
+
+footer a:hover {
+  color: #ff523b;
+}
+
+.reference {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.content {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 20px 0;
+  border-bottom: 2px solid rgba(255,255,255,0.5);
+}
+
+.download {
+  flex-basis: 25%;
+}
+
+.download p {
+  margin: 10px 0;
+}
+.company {
+  flex-basis: 30%;
+  text-align: center;
+}
+
+.util {
+  flex-basis: 18%;
+  text-align: center;
+}
+
+.social-media {
+  flex-basis: 18%;
+  text-align: center;
+}

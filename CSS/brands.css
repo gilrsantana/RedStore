@@ -8,4 +8,9 @@
   display: flex;
   justify-content: space-between;
   padding-bottom: 150px;
+  flex-wrap: wrap;
+}
+
+.partners img {
+  flex-basis: 15%;
 }
