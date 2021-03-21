@@ -37,10 +37,37 @@
   list-style: none;
 }
 
-.nav-item a{
+.nav-item {
   padding: 0 10px;
+  text-align: center;
+}
+
+.nav-item a{
+  margin: 0 auto;
   text-decoration: none;  
   color: #000;
+  position: relative;
+}
+
+.nav-item a::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: transparent;
+  transition: 0.5s;
+}
+
+.nav-item a:hover::after {
+  width: 100%;
+  background: #ff523b;
+  transition: 0.5s;
+}
+
+.none-effect {
+  position: static;
 }
 
 .nav-item img {
