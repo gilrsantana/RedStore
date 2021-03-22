@@ -12,28 +12,20 @@
   </head>
   <body>
     
-    <header class="top-header">
+    <header class="top-header comum-page">
       <div class="container">
         <nav class="principal-nav" id="nav-menu">
           <a href="./index.html"><img class="brand" id="Home" src="./Img/logo.png" alt=""></a> 
           <ul class="nav-list" id="nav_menu">
             <li class="nav-item" id="menu"><img id="menu-img" src="./Img/menu.png" alt=""></li>
-            <li class="nav-item"><a href="#Home">Home</a></li>
-            <li class="nav-item"><a href="#Products">Produtos</a></li>
-            <li class="nav-item"><a href="">Sobre</a></li>
-            <li class="nav-item"><a href="">Contato</a></li>
-            <li class="nav-item"><a href="">Login</a></li>
+            <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link selected" href="#">Produtos</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Sobre</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Contato</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Login</a></li>
             <li class="nav-item"><a style="position: static;" href=""><img src="./Img/cart.png" alt=""></a> </li>
           </ul>
         </nav>
-        <div class="header-description">
-          <div class="header-text">
-            <h1>Faça de você<br>o seu próprio estilo!</h1>
-            <p>Marcar sua presença não é ser o maior. É uma questão de estilo.<br>O estilo te diferencia e a diferença mara a presença</p>
-            <a class="button pri-btn" href="#">Seu estilo agora <i class="fas fa-arrow-right"></i></a>
-          </div>
-          <img src="./Img/image1.png" alt="">
-        </div>
       </div>
       
     </header>
@@ -41,15 +33,19 @@
     <main>
       <section class="products" id="Products">
         <div class="container">
-          <div class="category">
-            <img src="./Img/category-1.jpg" alt="">
-            <img src="./Img/category-2.jpg" alt="">
-            <img src="./Img/category-3.jpg" alt="">
-          </div><!-- category -->
-        
-        
-          <h2 class="title-section">Produtos em Destaque</h2>
-  
+                 
+          <header class="head-comum">
+            <h2 class="title-section title-product">Produtos em Destaque</h2>
+            <form action="">
+              <select name="orderBy" id="orderBy" class="list-product">
+                <option value="bestSeller">Mais Vendidos</option>
+                <option value="last">Mais Recentes</option>
+                <option value="cheaper">Mais Baratos</option>
+                <option value="alphabetical">Por Nome</option>
+              </select>
+            </form>
+          </header>
+          
           <div class="box-product">
             <div class="product">
               <a href=""><img src="./Img/product-1.jpg" alt=""></a>
@@ -100,8 +96,6 @@
               <p>R$ 89,00</p>
             </div><!-- /product -->
           </div><!-- /box-product -->
-  
-          <h2 class="title-section">Produtos Recentes</h2>
   
           <div class="box-product">
             <div class="product">
@@ -206,93 +200,20 @@
               <p>R$ 89,00</p>
             </div><!-- /product -->
           </div><!-- /box-product -->
+
+          <footer class="pages">
+            <a class="pg-list" href="">1</a>
+            <a class="pg-list" href="">2</a>
+            <a class="pg-list" href="">3</a>
+            <a class="pg-list" href="">4</a>
+            <a class="pg-list" href=""><i class="fas fa-arrow-right"></i></a>
+          </footer>
   
         </div><!-- /container -->
-  
-        <div class="exclusive">
-          <div class="exclusive-description">
-            <img src="./Img/exclusive.png" alt="">
-            <div class="exclusive-text">
-              <p>Produto Exclusivo Redstore</p>
-              <h1>Smart Band 5</h1>
-              <p>A Mi Smart Band agora tem tela AMOLED color 39% maior (em comparação à Mi Band 3)</p>
-              <p>Display touch com ajuste de brilho e consegue ser visível em situações de extrema luminosidade</p>
-              <a class="button pri-btn" href="#">Compre agora <i class="fas fa-arrow-right"></i></a>
-            </div><!-- /exclusive-text -->
-          </div><!-- /exclusive-description -->
-        </div><!-- /exclusive -->
       </section><!-- products -->
     </main>
 
-    <section class="testimonial">
-      <div class="container">
-        <div class="box-testimonial">
-          <div class="user">
-            <i class="fas fa-quote-left"></i>
-            <div class="text">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga autem suscipit rem corporis repellat magni!</p>
-            </div>
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-            <img src="./Img/user-1.png" alt="">
-            <h4>Lara Croft</h4>
-          </div><!-- /testimonial -->
-
-          <div class="user">
-            <i class="fas fa-quote-left"></i>
-            <div class="text">
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex perspiciatis, nostrum sapiente eum nihil repellendus!</p>
-            </div>
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-            <img src="./Img/user-2.png" alt="">
-            <h4>Bruce Banner</h4>
-          </div><!-- /testimonial -->
-
-          <div class="user">
-            <i class="fas fa-quote-left"></i>
-            <div class="text">
-              <p>Lorem ipsum, dolor sit amet consectetur elit. Exercitationem soluta perferendis minus porro.</p>
-            </div>
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-            <img src="./Img/user-3.png" alt="">
-            <h4>Jean Grey</h4>
-          </div><!-- /testimonial -->
-
-        </div><!-- /box-testimonial -->
-      </div><!-- /container -->
-
-    </section>
-
-    <section class="brands">
-      <div class="container">
-        <div class="partners">
-          <a href=""><img src="./Img/logo-godrej.png" alt=""></a>
-          <a href=""><img src="./Img/logo-oppo.png" alt=""></a>
-          <a href=""><img src="./Img/logo-coca-cola.png" alt=""></a>
-          <a href=""><img src="./Img/logo-paypal.png" alt=""></a>
-          <a href=""><img src="./Img/logo-philips.png" alt=""></a>
-        </div><!-- /partners -->
-      </div><!-- /container -->
-    </section>
-
-    <footer>
+    <footer class="main-footer">
       <div class="container">
         <div class="content">
           <div class="download">
@@ -327,24 +248,7 @@
       </div>
     </footer>
 
-    <script>
-
-      var nav_menu = document.getElementById('nav_menu')
-      var menu = document.getElementById('menu-img')
-      
-      nav_menu.style.right='-151px'
-      nav_menu.style.transition = '0.4s'
-
-      menu.onclick = function() {
-        if(nav_menu.style.right == '-151px'){
-          nav_menu.style.right = '0px'
-        }else {
-          nav_menu.style.right = '-151px'
-        }
-      }
-
-
-    </script>
+    <script src="./JS/script.js"></script>
 
   </body>
 </html>

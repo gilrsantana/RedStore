@@ -4,32 +4,32 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-footer {
+.main-footer {
   width: 100%;
   color: #fff;
   background: #000;
 }
 
-footer p, 
-footer span {
+.main-footer p, 
+.main-footer span {
   font-size: 0.8em;
 }
 
-footer a {
+.main-footer a {
   text-decoration: none;
   color: #fff;
   font-size: 0.8em;
 }
 
-footer img {
+.main-footer img {
   width: 80px;
 }
 
-footer img:hover {
+.main-footer img:hover {
   box-shadow: 0 0 5px #ff523b;
 }
 
-footer a:hover {
+.main-footer a:hover {
   color: #ff523b;
 }
 

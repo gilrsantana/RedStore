@@ -1,0 +1,66 @@
+/************************************
+***********    Products   ***********
+************************************/
+
+.top-header.comum-page {
+  height: 200px;
+  width: 100%;
+  max-width: 1800px;
+  margin: 0 auto;
+  background: none;
+}
+
+.title-product.title-section {
+  text-align: left;
+  position: static;
+}
+
+.title-product.title-section::after {
+  position: static;
+  width: 0;;
+}
+
+.head-comum {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head-comum .title-section {
+  text-align: left;
+  position: static;
+}
+
+.list-product {
+  border: 1px solid #ff523b;
+  background-color: #fff;
+}
+
+#Products .box-product {
+  margin: 20px auto;
+}
+
+.pages {
+  width: 75%;
+  margin: 30px auto;
+}
+
+.pg-list {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  border: 1px solid #ff523b;
+  color: #000;
+  text-decoration: none;
+  line-height: 30px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.pg-list:hover {
+  background-color: #ff523b;
+  transition: 0.3s;
+}
