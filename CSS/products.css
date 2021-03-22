@@ -5,7 +5,6 @@
 .top-header.comum-page {
   height: 200px;
   width: 100%;
-  max-width: 1800px;
   margin: 0 auto;
   background: none;
 }
@@ -23,6 +22,7 @@
 .head-comum {
   width: 75%;
   margin: 0 auto;
+  margin-bottom: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -39,7 +39,7 @@
 }
 
 #Products .box-product {
-  margin: 20px auto;
+  margin: 25px auto;
 }
 
 .pages {
@@ -63,4 +63,23 @@
 .pg-list:hover {
   background-color: #ff523b;
   transition: 0.3s;
+}
+
+
+@media screen and (max-width: 768px) {
+  #Products .product {
+    margin: 15px;
+  }
+  .head-comum {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+
+  .head-comum {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
 }

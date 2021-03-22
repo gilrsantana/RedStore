@@ -42,7 +42,7 @@
 
 .product {
   transition: 0.5s;
-  margin: 10px;
+  margin: 25px;
   display: flex;
   flex-direction: column;
 }
@@ -115,10 +115,6 @@
 
   .box-product {
     width: 100%;
-  }
-
-  .product {
-    margin: 10px 40px;
   }
 
 }
