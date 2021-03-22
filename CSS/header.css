@@ -61,17 +61,6 @@
   transition: 0.5s;
 }
 
-/* .selected::after {
-  content: '';
-  position: absolute;
-  bottom: -10px;
-  left: 0;
-  width: 100%;
-  height: 3px;
-  background: #ff523b;
-} */
-
-
 .nav-link:hover::after, .selected::after {
   width: 100%;
   background: #ff523b;

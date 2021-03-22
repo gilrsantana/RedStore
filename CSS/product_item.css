@@ -1,0 +1,84 @@
+/************************************
+*********** Product-item  ***********
+************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.gallery {
+  flex-basis: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.desc-prod {
+  flex-basis: 25%;
+}
+
+.sel-img {
+  flex-basis: 100%;
+  margin-bottom: 20px;
+}
+
+.sel-img img {
+  width: 99%;
+}
+
+.images-product {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.images-product img {
+  width: 90%;
+  cursor: pointer;
+}
+
+.images-product img:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px #ff523b;
+}
+
+.desc-prod {
+  flex-basis: 45%;
+}
+
+.prod_item .list-field {
+  display: block;
+  font-size: 1.2em;
+}
+
+.prod_item .button {
+  margin-bottom: 20px;
+  padding-left: 0;
+  display: inline-block;
+}
+
+.desc-prod h2,
+.desc-prod h3,
+.desc-prod h5,
+.desc-prod p,
+.desc-prod .list-field {
+  margin-bottom: 20px;
+}
+
+.desc-prod h5,
+.price {
+  color: #444;
+  font-weight: 100;
+}
+
+.qtt_prod.list-field {
+  display: inline;
+}
+
+.head-comum a {
+  color: #000;
+}
