@@ -33,12 +33,12 @@
   position: static;
 }
 
-.list-product {
+.list-field {
   border: 1px solid #ff523b;
   background-color: #fff;
 }
 
-#Products .box-product {
+.box-product {
   margin: 25px auto;
 }
 
