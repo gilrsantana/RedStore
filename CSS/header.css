@@ -61,17 +61,6 @@
   transition: 0.5s;
 }
 
-/* .selected::after {
-  content: '';
-  position: absolute;
-  bottom: -10px;
-  left: 0;
-  width: 100%;
-  height: 3px;
-  background: #ff523b;
-} */
-
-
 .nav-link:hover::after, .selected::after {
   width: 100%;
   background: #ff523b;
@@ -123,7 +112,6 @@
 }
 
 @media screen and (max-width: 1023px) {
-  
   .header-description img {
     display: none;
   }
@@ -134,7 +122,6 @@
 }
 
 @media screen and (max-width: 768px) {
-
   #menu {
     display: block;
   }
@@ -157,7 +144,6 @@
 }
 
 @media screen and (max-width: 576px) {
-
   .header-text h1 {
     font-weight: bolder;
     font-size: 2.5em;
@@ -165,4 +151,3 @@
     margin-bottom: 15px;
   }
 }
-
