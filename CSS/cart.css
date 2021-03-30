@@ -1,0 +1,85 @@
+/************************************
+***********    Brands     ***********
+************************************/
+
+.header-cart {
+  width: 100%;
+  background: #ff523b;
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+  color: #fff;
+}
+
+.produto {
+  flex-basis: 70%;
+}
+
+.quantidade {
+  flex-basis: 15%;
+}
+
+.subtotal {
+  flex-basis: 15%;
+  text-align: right;
+}
+
+.list-cart {
+  width: 100%;
+  padding: 0 10px;
+  display: flex;
+  margin-top: 10px;
+}
+
+.prod-cart {
+  flex-basis: 70%;
+  display: flex;
+}
+
+.prod-cart img {
+  width: 100px;
+  margin-right: 5px;
+}
+
+.remover {
+  padding: 2px;
+  border-radius: 0;
+  cursor: pointer;
+  border: 1px solid #ff523b;
+  color: #ff523b;
+  background: #fff;
+}
+
+.prod-qtt .list-field {
+  display: block;
+  font-size: 1.2em;
+}
+
+.prod-qtt, 
+.prod-price {
+  flex-basis: 15%;
+}
+
+.prod-price {
+  text-align: right;
+}
+
+.total-cart {
+  width: 30%;
+  border-top: 3px solid #ff523b;
+  margin-left: auto;
+  padding-top: 20px;
+}
+
+.vl-subtotal,
+.vl-tax,
+.vl-total-cart {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total-cart .button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 0;
+}

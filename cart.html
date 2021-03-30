@@ -31,106 +31,114 @@
     </header>
 
     <main>
-      <section class="prod_item" id="Product">
+      <section id="Cart">
         <div class="container">
 
           <div class="content">
-            <div class="gallery">
-              <div class="sel-img"><img src="../Img/gallery-1.jpg" alt=""></div>
-              <div class="images-product">
-                <div class="img-gall-1"><img src="../Img/gallery-1.jpg" alt=""></div>
-                <div class="img-gall-2"><img src="../Img/gallery-2.jpg" alt=""></div>
-                <div class="img-gall-3"><img src="../Img/gallery-3.jpg" alt=""></div>
-                <div class="img-gall-4"><img src="../Img/gallery-4.jpg" alt=""></div>
-              </div>
+            <div class="header-cart">
+              <h4 class="produto">Produto</h4>
+              <h4 class="quantidade">Quantidade</h4>
+              <h4 class="subtotal">Subtotal</h4>
             </div>
-            <div class="desc-prod">
-              <h5>T-Shirt / Puma</h5>
-              <h2>Puma T-Shirt Red</h2>
-              <h3>Puma</h3>
-              <p><span class="price">R$ 89,00</span></p>
-              <form action="">
-                <select name="size" id="size" class="list-field">
-                  <option value="r">Tamanho</option>
-                  <option value="p">P</option>
-                  <option value="m">M</option>
-                  <option value="g">G</option>
-                  <option value="gg">GG</option>
-                  <option value="xg">XG</option>
-                  <option value="xxg">XXG</option>
-                </select>
-                <select name="qtt_prod" id="qtt_prod" class="list-field qtt_prod">
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                  <option value="5">5</option>
-                </select>
-              </form>
-              <a class="button pri-btn" href="">Adicionar ao carrinho</a>
+            <div class="list-cart">
+              <div class="prod-cart">
+                <img src="./Img/buy-1.jpg" alt="">
+                <div class="desc-prod-cart">
+                  <p>Puma T-Shirt Red</p>
+                  <p>R$ 89,00</p>
+                  <button type="button" class="remover">Remover</button>
+                </div>
+              </div>
 
-              <h2>Descrição</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates aliquam obcaecati animi iste, aliquid, quaerat beatae unde aut repellendus, ipsa molestias. Minima nisi similique libero earum molestiae, laudantium ab voluptate.</p>
+              <div class="prod-qtt">
+                <form action="">
+                  <select name="qtt_prod" id="qtt_prod" class="list-field qtt_prod">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </form>
+              </div>
 
-            </div><!-- /desc-prod -->
+              <div class="prod-price">
+                <p>R$ 89,00</p>
+              </div>
+            </div><!-- /list-cart -->
+            <div class="list-cart">
+              <div class="prod-cart">
+                <img src="./Img/buy-2.jpg" alt="">
+                <div class="desc-prod-cart">
+                  <p>Puma T-Shirt Red</p>
+                  <p>R$ 89,00</p>
+                  <button type="button" class="remover">Remover</button>
+                </div>
+              </div>
+
+              <div class="prod-qtt">
+                <form action="">
+                  <select name="qtt_prod" id="qtt_prod" class="list-field qtt_prod">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </form>
+              </div>
+
+              <div class="prod-price">
+                <p>R$ 89,00</p>
+              </div>
+            </div><!-- /list-cart -->
+            <div class="list-cart">
+              <div class="prod-cart">
+                <img src="./Img/buy-3.jpg" alt="">
+                <div class="desc-prod-cart">
+                  <p>Puma T-Shirt Red</p>
+                  <p>R$ 89,00</p>
+                  <button type="button" class="remover">Remover</button>
+                </div>
+              </div>
+
+              <div class="prod-qtt">
+                <form action="">
+                  <select name="qtt_prod" id="qtt_prod" class="list-field qtt_prod">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+                </form>
+              </div>
+
+              <div class="prod-price">
+                <p>R$ 89,00</p>
+              </div>
+            </div><!-- /list-cart -->
+
+            <div class="total-cart">
+              <div class="vl-subtotal">
+                <h5>Subtotal</h5>
+                <p>R$ 267,00</p>
+              </div>
+              <div class="vl-tax">
+                <h5>Impostos</h5>
+                <p>R$ 0,00</p>
+              </div>
+              <div class="vl-total-cart">
+                <h5>Total</h5>
+                <p>R$ 267,00</p>
+              </div>
+              <a href="" class="button pri-btn">Comprar</a>
+            </div><!-- /total-cart -->
+              
+              
           </div><!-- /content -->
                  
-          <header class="head-comum">
-            <h2 class="title-section title-product">Produtos Relacionados</h2>
-            <a href="../products.html">Ver mais</a>
-          </header>
-          
-          <div class="box-product">
-            <div class="product">
-              <a href=""><img src="../Img/product-2.jpg" alt=""></a>
-              <p>Puma T-Shirt Red</p>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-              </div>
-              <p>R$ 89,00</p>
-            </div><!-- /product -->
-            <div class="product">
-              <a href=""><img src="../Img/product-3.jpg" alt=""></a>
-              <p>Puma T-Shirt Red</p>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-              </div>
-              <p>R$ 89,00</p>
-            </div><!-- /product -->
-            <div class="product">
-              <a href=""><img src="../Img/product-4.jpg" alt=""></a> 
-              <p>Puma T-Shirt Red</p>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-              </div>
-              <p>R$ 89,00</p>
-            </div><!-- /product -->
-          
-            <div class="product">
-              <a href=""><img src="../Img/product-5.jpg" alt=""></a>
-              <p>Puma T-Shirt Red</p>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-              </div>
-              <p>R$ 89,00</p>
-            </div><!-- /product -->
-          </div><!-- /box-product -->
+         
   
         </div><!-- /container -->
       </section><!-- /product -->
