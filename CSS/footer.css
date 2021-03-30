@@ -38,13 +38,9 @@
   padding: 20px 0;
 }
 
-.content {
-  width: 90%;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+.main-footer .content {
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 20px 0; 
   border-bottom: 2px solid rgba(255,255,255,0.5);
 }
 
@@ -73,7 +69,6 @@
 .social-media {
   flex-basis: 15%;
   text-align: center;
-
   text-align: right;
 }
 
