@@ -9,6 +9,7 @@
 @import url('./products.css');
 @import url('./product_item.css');
 @import url('./cart.css');
+@import url('./account.css');
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
@@ -56,4 +57,8 @@ body {
   background: #fff;
   color: #ff523b;
   transition: 0.5s;
+}
+
+.ol-none:focus {
+  outline: none;
 }
