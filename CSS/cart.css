@@ -67,6 +67,7 @@
 .total-cart {
   width: 30%;
   border-top: 3px solid #ff523b;
+  margin-top: 30px;
   margin-left: auto;
   padding-top: 20px;
 }
@@ -82,4 +83,51 @@
   width: 100%;
   margin-top: 20px;
   padding: 0;
+}
+
+@media screen and (max-width: 768px){
+  #Cart .content {
+    font-size: 0.8em;
+  }
+
+
+}
+@media screen and (max-width: 576px){
+  .total-cart {
+    width: 90%;
+    margin: 30px auto;
+  }
+
+  #Cart .content {
+    width: 100%;;
+  }
+
+  .prod-cart img {
+    width: 60px;
+  }
+
+  .prod-cart {
+    flex-basis: 60%;
+  }
+
+  .prod-qtt{
+    flex-basis: 15%;
+  } 
+
+  .prod-price {
+    flex-basis: 25%;
+  }
+
+  .produto {
+    flex-basis: 60%;
+  }
+  
+  .quantidade {
+    flex-basis: 15%;
+  }
+  
+  .subtotal {
+    flex-basis: 25%;
+    
+  }
 }

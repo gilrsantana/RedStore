@@ -10,6 +10,7 @@
 .account-box {
   position: relative;
   width: 320px;
+  min-width: 315px;
   height: 450px;
   padding: 15px;
   background: #fff;
