@@ -86,9 +86,9 @@
 }
 
 .header-description img {
-  flex-basis: 40%;
-  max-width: 600px;
-  min-width: 500px;
+  flex-basis: 35%;
+  max-width: 350px;
+  min-width: 100px;
 }
 
 .header-text {
