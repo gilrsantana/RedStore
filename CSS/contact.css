@@ -1,0 +1,62 @@
+/************************************
+***********    Contact    ***********
+************************************/
+
+.contact-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.left {
+  flex-basis: 40%;
+}
+
+.right {
+  flex-basis: 55%;
+}
+
+.left img {
+  width: 100%;
+}
+
+.contact .title-section {
+  margin-bottom: 32px;
+  font-weight: 900;
+}
+
+.find-me {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.find p{
+  color: #777;
+}
+
+.field-name{
+  margin-top: 18px;
+  margin-bottom: -30px;
+}
+
+.contact-form .field {
+  background-color: #fff;
+  border-bottom: 1px solid #777;
+  padding: 0;
+  border-radius: 0;
+  font-size: 13px;
+}
+
+.find-store {
+  margin-top: 32px;
+}
+
+.interest{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
