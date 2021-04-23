@@ -23,6 +23,7 @@
   width:80%;
   background-color: rgba(0,0,0,.5);
   color: #fff;
+  
   border-radius: 10px;
 }
 
@@ -30,6 +31,7 @@
   width: 650px;
   margin: 50px auto;
   text-align: center;
+  font-weight: 700;
   font-size: 4em;
 }
 
