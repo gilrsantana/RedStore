@@ -1,0 +1,39 @@
+/************************************
+***********    Account    ***********
+************************************/
+
+.cover {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  background-image: url('../Img/children.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.top-header.comum-page {
+  height: 80px;
+}
+
+.text-cover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width:80%;
+  background-color: rgba(0,0,0,.5);
+  color: #fff;
+  border-radius: 10px;
+}
+
+.text-cover p {
+  width: 650px;
+  margin: 50px auto;
+  text-align: center;
+  font-size: 4em;
+}
+
+.destack {
+  color: #ff523b;
+}
+
