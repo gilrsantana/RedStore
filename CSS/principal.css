@@ -115,6 +115,10 @@
   .box-product {
     width: 100%;
   }
+
+  .find p {
+    margin-right: 20px;
+  }
 }
 
 @media screen and (max-width: 576px) {

@@ -11,15 +11,17 @@
 }
 
 .left {
+  height: 1400px;
   flex-basis: 40%;
+  background-image: url('../Img/girl_phone.jpg');
+  background-position: center;
+  background-size: cover;
 }
 
 .right {
-  flex-basis: 55%;
-}
-
-.left img {
-  width: 100%;
+  flex-basis: 50%;
+  min-width: 540px;
+  margin-left: 10px;
 }
 
 .contact .title-section {
@@ -64,4 +66,41 @@
 form #story {
   margin: 32px 0;
   padding: 10px;
+}
+
+#submit_contact.pri-btn {
+  padding-left: 0;
+}
+
+.txt-contact {
+  width: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+  .right {
+    flex-basis: 90%;
+    min-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .left {
+    height: 180px;
+    flex-basis: 90%;
+    background-image: url('../Img/girl_phone_sm.jpg');
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .interest{
+    flex-direction:column;
+  }
+  
+  .find-me {
+    flex-direction: column;
+  }
+  
+  #submit_contact.pri-btn {
+    width: 100%;
+  }
 }
