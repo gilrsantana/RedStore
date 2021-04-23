@@ -9,6 +9,7 @@
   background-image: url('../Img/children.jpg');
   background-position: center;
   background-size: cover;
+  margin-bottom: 100px;
 }
 
 .top-header.comum-page {
@@ -23,8 +24,8 @@
   width:80%;
   background-color: rgba(0,0,0,.5);
   color: #fff;
-  
   border-radius: 10px;
+  
 }
 
 .text-cover p {
@@ -39,3 +40,14 @@
   color: #ff523b;
 }
 
+.who_is {
+  width: 780px;
+  margin: 40px auto;
+}
+
+.who_is p {
+  margin-top: 32px;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: justify;
+}
