@@ -123,9 +123,10 @@
 }
 
 .redsocial {
-  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("/Img/redsocial.jpg");
   width: 100%;
-  height: 770px;
+  margin-bottom: 40px;
+  padding: 80px 0;
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("/Img/redsocial.jpg");
   background-position: center;
   background-size: cover;
   color: #fff;
@@ -136,6 +137,18 @@
   margin: 0 auto;
 }
 
+.redsocial .title-section {
+  margin-bottom: 40px;
+}
 .redsocial p {
   margin-top: 40px;
+}
+
+.redsocial a {
+  color: #000;
+  background-color: #ff523b;
+  margin-top: 40px;
+  padding: 5px 50px;
+  font-size: 18px;
+  text-decoration: none;
 }
