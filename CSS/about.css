@@ -43,6 +43,7 @@
 .who_is {
   width: 780px;
   margin: 40px auto;
+  margin-bottom: 100px;
 }
 
 .who_is p {
@@ -50,4 +51,91 @@
   font-size: 20px;
   line-height: 40px;
   text-align: justify;
+}
+
+.values_wrapper {
+  margin: 80px 0;
+  padding: 0 10%;
+}
+
+.value_t1,
+.value_t4 {
+  position: relative;
+  width: 700px;
+  height: 280px;
+  margin-bottom: 20px;
+}
+
+.value_t2, 
+.value_t3 {
+  position: relative;
+  width: 587px;
+  height: 316px;
+  margin-bottom: 20px;
+}
+
+.value_t4,
+.value_t2 {
+  margin-left: auto;
+}
+
+.value_t1 img,
+.value_t4 img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 335px;
+  z-index: 2;
+}
+
+.value_t2 img,
+.value_t3 img {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 200px;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+.value_t2 .value_text,
+.value_t3 .value_text {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.value_text {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 430px;
+  height: 230px;
+  padding-left: 100px;
+  padding-right: 15px;
+  background-color: #c4c4c4;
+  z-index: 1;
+}
+
+.value_text h2{
+  margin-top: 50px;
+}
+
+.redsocial {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/Img/redsocial.jpg");
+  width: 100%;
+  height: 770px;
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+
+.redsocial .content {
+  width: 780px;
+  margin: 0 auto;
+}
+
+.redsocial p {
+  margin-top: 40px;
 }
