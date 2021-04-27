@@ -98,14 +98,6 @@
   z-index: 2;
 }
 
-.value_t2 .value_text,
-.value_t3 .value_text {
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
-}
-
 .value_text {
   position: absolute;
   bottom: 0;
@@ -115,6 +107,15 @@
   padding-left: 100px;
   padding-right: 15px;
   background-color: #c4c4c4;
+  z-index: 1;
+}
+
+.value_t2 .value_text,
+.value_t3 .value_text {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
   z-index: 1;
 }
 
@@ -135,6 +136,7 @@
 .redsocial .content {
   width: 780px;
   margin: 0 auto;
+  text-align: justify;
 }
 
 .redsocial .title-section {
@@ -152,3 +154,118 @@
   font-size: 18px;
   text-decoration: none;
 }
+
+@media screen and (max-width: 850px){
+  .text-cover p {
+    font-size: 3em;
+    width: 90%;
+    min-width: none;
+  }
+
+  .who_is {
+    width: 90%;
+  }
+
+  .redsocial .content {
+    width: 90%;
+  }
+
+  .values_wrapper {
+    position: static;
+    margin: 80px 0;
+    padding: 0 32px;
+  }
+
+  .value_t1,
+  .value_t4,
+  .value_t2, 
+  .value_t3 {
+    position: static;
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+    background-color: blue;
+  }
+
+  /* .value_t2, 
+  .value_t3 {
+    position: static;
+    width: 100%;
+    height: none;
+    margin: 0 auto;
+    margin-bottom: 100px; */
+
+
+
+
+
+
+    /* position: static;
+    width: 100%;
+    height: none;
+    margin-bottom: 100px; */
+    /* background-color: red; */
+  /* } */
+
+  
+
+  .value_t1 img,
+  .value_t4 img,
+  .value_t2 img,
+  .value_t3 img {
+    position: static;
+    display: block;
+    width: 335px;
+    margin: 0 auto;
+    transform: translateY(0);
+    z-index: 2;
+  }
+
+  .value_t2 img,
+  .value_t3 img {
+    position: static;
+    width: 200px;
+    z-index: 2;
+  }
+
+  .value_text,
+  .value_t2 .value_text,
+  .value_t3 .value_text {
+    position: static;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    padding: 5px 10px;
+    padding-top: 50px;
+    margin-top: -40px;
+    margin-bottom: 20px;
+    background-color: #c4c4c4;
+    z-index: 0;
+  }
+
+  .value_t2 .value_text,
+  .value_t3 .value_text {
+    /* position: static;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    padding: 5px 10px;
+    padding-top: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    background-color: #c4c4c4;
+    z-index: 0; */
+    transform: translateY(20%);
+
+   
+  } 
+
+  .value_text h2{
+    margin-top: 0;
+  }
+
+}
+
+/*  */
