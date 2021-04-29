@@ -1,5 +1,5 @@
 <h1 align="center">
-  ![](./Img/logo-white.png)
+  
   <img alt="JobsCalc" title="JobsCalc" src="https://i.imgur.com/Veqm7Gh.png" width="220px" />
 </h1>
 
@@ -17,7 +17,7 @@
 </p>
 
 <br>
-
+![](./Img/logo-white.png)
 <p align="center">
   <img alt="dev.finances" src=".github/jobscalc.png" width="100%">
 </p>
@@ -25,7 +25,7 @@
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
-
+![](./Img/logo-white.png)
 - HTML
 - CSS
 - JavaScript
