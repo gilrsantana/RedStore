@@ -32,9 +32,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-REDSTORE é um projeto de estudo que tem como objetivo apresentar uma solução frontend para uma webstore. Nessa proposta não foi desenvolvido o backend, mas com pequenos ajustes é possível incluir uma linguagem backend e utilizar esta proposta como loja virtual real.
+REDSTORE é um projeto de estudo que tem como objetivo apresentar uma solução frontend para uma webstore. Nessa proposta não foi desenvolvido o backend, mas com pequenos ajustes é possível incluir uma linguagem backend e utilizar esta proposta como loja virtual real.💰
 
-O objetivo aqui é treinar a utilização de elementos HTML, tags semânticas, posicionamento de elementos, estilização de elementos HTML, design responsivo e manipulação de elementos HTML com JavaScript.💰
+O objetivo aqui é treinar a utilização de elementos HTML, tags semânticas, posicionamento de elementos, estilização de elementos HTML, design responsivo e manipulação de elementos HTML com JavaScript.
 
 ## 🔖 Layout
 
