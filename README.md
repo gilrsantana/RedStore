@@ -1,6 +1,5 @@
 <h1 align="center">
-  
-  <img alt="JobsCalc" title="JobsCalc" src="https://raw.githubusercontent.com/gilrsantana/RedStore/main/Img/logo-white.png" width="220px" />
+  <img alt="RedStore" title="RedStore" src="https://raw.githubusercontent.com/gilrsantana/RedStore/main/Img/logo-white.png" width="220px" />
 </h1>
 
 <p align="center">
@@ -17,7 +16,7 @@
 </p>
 
 <br>
-![](./Img/logo-white.png)
+
 <p align="center">
   <img alt="dev.finances" src=".github/jobscalc.png" width="100%">
 </p>
