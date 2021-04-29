@@ -18,7 +18,7 @@
 <br>
 
 <p align="center">
-  <a href="https://redstore-new.netlify.app/" target="_blank><img alt="redstore" src="https://raw.githubusercontent.com/gilrsantana/RedStore/main/Web_Redstore.png" width="50%"></a>
+  <a href="https://redstore-new.netlify.app/" target="_blank"><img alt="redstore" src="https://raw.githubusercontent.com/gilrsantana/RedStore/main/Web_Redstore.png" width="50%"></a>
                                                                                                                 
 </p>
 
