@@ -24,14 +24,11 @@
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
-![](./Img/logo-white.png)
+
 - HTML
 - CSS
 - JavaScript
-- NodeJS
-- EJS
-- Express
-- SQLite
+
 
 ## 💻 Projeto
 
