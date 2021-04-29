@@ -32,11 +32,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O JobsCalc é uma aplicação de estimativa de cálculo para projetos freelancer, onde é possível cadastrar e excluir jobs (projetos), obtendo uma estimativa de custo de cada job. Além disso, é possível traçar o valor da hora da pessoa que estará usando o sistema 💰
+REDSTORE é um projeto de estudo que tem como objetivo apresentar uma solução frontend para uma webstore. Nessa proposta não foi desenvolido o backend, mas com pequenos ajustes é possível incluir uma linguagem backend e utilizar esta proposta como loja virtual.
+
+O objetivo aqui é treinar a utilização de elementos HTML, tags semânticas, posicionamento de elementos, estilização de elementos HTML, design responsivo e manipulação de elementos HTML com JavaScript.💰
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/s4fytPFbDiSkv4GPSfKaLE/Jobs-Planning). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/LZrlSj3vy2JMTCpJe5BKuS/WebStore?node-id=0%3A1). É necessário acessar a plataforma figma [Figma](https://figma.com) para acessá-lo.
 
 ## :memo: Licença
 
