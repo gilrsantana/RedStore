@@ -1,5 +1,5 @@
 <h1 align="center">
-  ![](/Img/logo-white.png)
+  ![](./Img/logo-white.png)
   <img alt="JobsCalc" title="JobsCalc" src="https://i.imgur.com/Veqm7Gh.png" width="220px" />
 </h1>
 
