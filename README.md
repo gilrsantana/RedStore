@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="RedStore" title="RedStore" src="https://raw.githubusercontent.com/gilrsantana/RedStore/main/Img/logo-white.png" width="220px" />
+  <img alt="RedStore" title="RedStore" src="https://raw.githubusercontent.com/gilrsantana/RedStore/main/Img/logo.png" width="220px" />
 </h1>
 
 <p align="center">
