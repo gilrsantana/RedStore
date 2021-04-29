@@ -18,7 +18,7 @@
 <br>
 
 <p align="center">
-  <img alt="redstore" src="https://raw.githubusercontent.com/gilrsantana/RedStore/main/Web_Redstore.png" width="50%">
+  <a href="https://redstore-new.netlify.app/><img alt="redstore" src="https://raw.githubusercontent.com/gilrsantana/RedStore/main/Web_Redstore.png" width="50%"></a>
 </p>
 
 ## 🚀 Tecnologias
@@ -41,7 +41,7 @@ O objetivo aqui é treinar a utilização de elementos HTML, tags semânticas, p
 
 Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/LZrlSj3vy2JMTCpJe5BKuS/WebStore?node-id=0%3A1). É necessário acessar a plataforma figma [Figma](https://figma.com) para acessá-lo.
 
-Para visualizar o site em funcionamento basta acessar [este link](https://redstore-new.netlify.app/)
+Para visualizar o site em funcionamento basta acessar [este link](https://redstore-new.netlify.app/).
 
 ## :memo: Licença
 
