@@ -18,7 +18,7 @@
 <br>
 
 <p align="center">
-  <img alt="dev.finances" src=".github/jobscalc.png" width="100%">
+  <img alt="redstore" src="https://raw.githubusercontent.com/gilrsantana/RedStore/main/Web_Redstore.png" width="50%">
 </p>
 
 ## 🚀 Tecnologias
