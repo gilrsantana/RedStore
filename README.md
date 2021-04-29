@@ -36,9 +36,12 @@ REDSTORE é um projeto de estudo que tem como objetivo apresentar uma solução 
 
 O objetivo aqui é treinar a utilização de elementos HTML, tags semânticas, posicionamento de elementos, estilização de elementos HTML, design responsivo e manipulação de elementos HTML com JavaScript.
 
+
 ## 🔖 Layout
 
 Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/LZrlSj3vy2JMTCpJe5BKuS/WebStore?node-id=0%3A1). É necessário acessar a plataforma figma [Figma](https://figma.com) para acessá-lo.
+
+Para visualizar o site em funcionamento basta acessar [este link](https://redstore-new.netlify.app/)
 
 ## :memo: Licença
 
